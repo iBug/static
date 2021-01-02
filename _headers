@@ -1,0 +1,5 @@
+/*
+  Access-Control-Allow-Origin: *
+
+/fontawesome/*
+  Cache-Control: public,max-age=86400
