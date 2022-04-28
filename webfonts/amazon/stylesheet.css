@@ -2,7 +2,7 @@
   font-family: "Amazon Ember";
   font-weight: 400;
   font-style: normal;
-  src: local("Amazon Ember Regular"), url("AmazonEmber_W_Rg.eot") format("embedded-opentype"), url("AmazonEmber_W_Rg.woff2") format("woff2"), url("AmazonEmber_W_Rg.woff") format("woff"), url("AmazonEmber_Rg.ttf") format("truetype");
+  src: local("Amazon Ember"), local("Amazon Ember Regular"), url("AmazonEmber_W_Rg.eot") format("embedded-opentype"), url("AmazonEmber_W_Rg.woff2") format("woff2"), url("AmazonEmber_W_Rg.woff") format("woff"), url("AmazonEmber_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amazon Ember";
@@ -62,7 +62,7 @@
   font-family: "Amazon Ember Condensed";
   font-weight: 400;
   font-style: normal;
-  src: local("Amazon Ember Condensed Regular"), url("AmazonEmberCd_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberCd_W_Rg.woff2") format("woff2"), url("AmazonEmberCd_W_Rg.woff") format("woff"), url("AmazonEmberCd_Rg.ttf") format("truetype");
+  src: local("Amazon Ember Condensed"), local("Amazon Ember Condensed Regular"), url("AmazonEmberCd_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberCd_W_Rg.woff2") format("woff2"), url("AmazonEmberCd_W_Rg.woff") format("woff"), url("AmazonEmberCd_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amazon Ember Condensed";
@@ -110,7 +110,7 @@
   font-family: "Amazon Ember Display";
   font-weight: 400;
   font-style: normal;
-  src: local("Amazon Ember Display Regular"), url("AmazonEmberDisplay_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberDisplay_W_Rg.woff2") format("woff2"), url("AmazonEmberDisplay_W_Rg.woff") format("woff"), url("AmazonEmberDisplay_Rg.ttf") format("truetype");
+  src: local("Amazon Ember Display"), local("Amazon Ember Display Regular"), url("AmazonEmberDisplay_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberDisplay_W_Rg.woff2") format("woff2"), url("AmazonEmberDisplay_W_Rg.woff") format("woff"), url("AmazonEmberDisplay_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amazon Ember Display";
@@ -139,7 +139,7 @@
 @font-face {
   font-family: "Amazon Ember Mono";
   font-weight: 400;
-  src: local("Amazon Ember Mono Regular"), url("AmazonEmberMono_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberMono_W_Rg.woff2") format("woff2"), url("AmazonEmberMono_W_Rg.woff") format("woff"), url("AmazonEmberMono_Rg.ttf") format("truetype");
+  src: local("Amazon Ember Mono"), local("Amazon Ember Mono Regular"), url("AmazonEmberMono_W_Rg.eot") format("embedded-opentype"), url("AmazonEmberMono_W_Rg.woff2") format("woff2"), url("AmazonEmberMono_W_Rg.woff") format("woff"), url("AmazonEmberMono_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Amazon Ember Mono";
@@ -150,7 +150,7 @@
   font-family: "BookerlyLCD";
   font-weight: 400;
   font-style: normal;
-  src: local("BookerlyLCD Regular"), url("BookerlyLCD_W_Rg.eot") format("embedded-opentype"), url("BookerlyLCD_W_Rg.woff2") format("woff2"), url("BookerlyLCD_W_Rg.woff") format("woff"), url("BookerlyLCD_Rg.ttf") format("truetype");
+  src: local("BookerlyLCD"), local("BookerlyLCD Regular"), url("BookerlyLCD_W_Rg.eot") format("embedded-opentype"), url("BookerlyLCD_W_Rg.woff2") format("woff2"), url("BookerlyLCD_W_Rg.woff") format("woff"), url("BookerlyLCD_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "BookerlyLCD";
@@ -186,7 +186,7 @@
   font-family: "Bookerly Display";
   font-weight: 400;
   font-style: normal;
-  src: local("Bookerly Display Regular"), url("BookerlyDisplay_W_Rg.eot") format("embedded-opentype"), url("BookerlyDisplay_W_Rg.woff2") format("woff2"), url("BookerlyDisplay_W_Rg.woff") format("woff"), url("BookerlyDisplay_Rg.ttf") format("truetype");
+  src: local("Bookerly Display"), local("Bookerly Display Regular"), url("BookerlyDisplay_W_Rg.eot") format("embedded-opentype"), url("BookerlyDisplay_W_Rg.woff2") format("woff2"), url("BookerlyDisplay_W_Rg.woff") format("woff"), url("BookerlyDisplay_Rg.ttf") format("truetype");
 }
 @font-face {
   font-family: "Bookerly Display";
