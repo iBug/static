@@ -3921,7 +3921,6 @@ payload:
 - "+.market.m.qq.com"
 - "+.sngapm.qq.com"
 - "+.szlong.weixin.qq.com"
-- "+.cdn.ark.qq.com"
 - "+.cm.e.qq.com"
 - "+.sdk.e.qq.com"
 - "+.mibook-10006092.cos.myqcloud.com"
