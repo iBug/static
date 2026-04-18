@@ -1,7 +1,7 @@
 /*!
- * Font Awesome Pro 7.0.0 by @fontawesome - https://fontawesome.com
+ * Font Awesome Pro 7.2.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
- * Copyright 2025 Fonticons, Inc.
+ * Copyright 2026 Fonticons, Inc.
  */
 .fa-solid,
 .fa-regular,
@@ -31,10 +31,14 @@
 .fans,
 .fands,
 .faes,
+.fagt,
 .fajr,
 .fajfr,
 .fajdr,
 .facr,
+.fausb,
+.faudsb,
+.faufsb,
 .fa-solid,
 .fa-semibold,
 .fa-regular,
@@ -47,6 +51,7 @@
 .fa-sharp-duotone,
 .fa-chisel,
 .fa-etch,
+.fa-graphite,
 .fa-jelly,
 .fa-jelly-duo,
 .fa-jelly-fill,
@@ -55,9 +60,12 @@
 .fa-slab,
 .fa-slab-press,
 .fa-thumbprint,
+.fa-utility,
+.fa-utility-duo,
+.fa-utility-fill,
 .fa-whiteboard,
 .fa {
-  --_fa-family: var(--fa-family, var(--fa-style-family, "Font Awesome 7 Pro"));
+  --_fa-family: var(--fa-family, var(--fa-style-family, 'Font Awesome 7 Pro'));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: var(--fa-display, inline-block);
@@ -97,10 +105,14 @@
 .fans,
 .fands,
 .faes,
+.fagt,
 .fajr,
 .fajfr,
 .fajdr,
 .facr,
+.fausb,
+.faudsb,
+.faufsb,
 .fa-solid,
 .fa-semibold,
 .fa-regular,
@@ -113,6 +125,7 @@
 .fa-sharp-duotone,
 .fa-chisel,
 .fa-etch,
+.fa-graphite,
 .fa-jelly,
 .fa-jelly-duo,
 .fa-jelly-fill,
@@ -121,12 +134,76 @@
 .fa-slab,
 .fa-slab-press,
 .fa-thumbprint,
+.fa-utility,
+.fa-utility-duo,
+.fa-utility-fill,
 .fa-whiteboard,
 .fa)::before {
-  content: var(--fa);
   content: var(--fa)/"";
 }
 
+@supports not (content: ""/"") {
+  :is(.fas,
+  .fass,
+  .far,
+  .fasr,
+  .fal,
+  .fasl,
+  .fat,
+  .fast,
+  .fad,
+  .fadr,
+  .fadl,
+  .fadt,
+  .fasds,
+  .fasdr,
+  .fasdl,
+  .fasdt,
+  .fab,
+  .faslr,
+  .faslpr,
+  .fawsb,
+  .fatl,
+  .fans,
+  .fands,
+  .faes,
+  .fagt,
+  .fajr,
+  .fajfr,
+  .fajdr,
+  .facr,
+  .fausb,
+  .faudsb,
+  .faufsb,
+  .fa-solid,
+  .fa-semibold,
+  .fa-regular,
+  .fa-light,
+  .fa-thin,
+  .fa-brands,
+  .fa-classic,
+  .fa-duotone,
+  .fa-sharp,
+  .fa-sharp-duotone,
+  .fa-chisel,
+  .fa-etch,
+  .fa-graphite,
+  .fa-jelly,
+  .fa-jelly-duo,
+  .fa-jelly-fill,
+  .fa-notdog,
+  .fa-notdog-duo,
+  .fa-slab,
+  .fa-slab-press,
+  .fa-thumbprint,
+  .fa-utility,
+  .fa-utility-duo,
+  .fa-utility-fill,
+  .fa-whiteboard,
+  .fa)::before {
+    content: var(--fa);
+  }
+}
 :is(.fad,
 .fa-duotone,
 .fadr,
@@ -142,12 +219,35 @@
 .fands,
 .fa-notdog-duo,
 .fajdr,
-.fa-jelly-duo)::after {
-  content: var(--fa);
+.fa-jelly-duo,
+.faudsb,
+.fa-utility-duo)::after {
   content: var(--fa)/"";
   font-feature-settings: "ss01";
 }
 
+@supports not (content: ""/"") {
+  :is(.fad,
+  .fa-duotone,
+  .fadr,
+  .fadl,
+  .fadt,
+  .fasds,
+  .fa-sharp-duotone,
+  .fasdr,
+  .fasdl,
+  .fasdt,
+  .fatl,
+  .fa-thumbprint,
+  .fands,
+  .fa-notdog-duo,
+  .fajdr,
+  .fa-jelly-duo,
+  .faudsb,
+  .fa-utility-duo)::after {
+    content: var(--fa);
+  }
+}
 .fa-1x {
   font-size: 1em;
 }
@@ -499,10 +599,11 @@
 
 .fa-stack-1x,
 .fa-stack-2x {
-  left: 0;
+  --fa-width: 100%;
+  inset: 0;
   position: absolute;
   text-align: center;
-  width: 100%;
+  width: var(--fa-width);
   z-index: var(--fa-stack-z-index, auto);
 }
 
@@ -8389,6 +8490,10 @@
   --fa: "\e773";
 }
 
+.fa-rectangle-hdr {
+  --fa: "\e773";
+}
+
 .fa-rectangle-video-on-demand {
   --fa: "\e774";
 }
@@ -8745,6 +8850,10 @@
   --fa: "\e7cc";
 }
 
+.fa-numpad {
+  --fa: "\e7cc";
+}
+
 .fa-computer-mouse-button-left {
   --fa: "\e7cd";
 }
@@ -9015,6 +9124,454 @@
 
 .fa-heptagon {
   --fa: "\e820";
+}
+
+.fa-mailbox-open-empty {
+  --fa: "\e821";
+}
+
+.fa-mailbox-open-letter {
+  --fa: "\e823";
+}
+
+.fa-lychee {
+  --fa: "\e824";
+}
+
+.fa-tank-recovery {
+  --fa: "\e825";
+}
+
+.fa-transducer {
+  --fa: "\e826";
+}
+
+.fa-box-arrow-up {
+  --fa: "\e827";
+}
+
+.fa-box-magnifying-glass {
+  --fa: "\e828";
+}
+
+.fa-envelope-ribbon {
+  --fa: "\e829";
+}
+
+.fa-envelope-certificate {
+  --fa: "\e829";
+}
+
+.fa-water-temperature {
+  --fa: "\e82a";
+}
+
+.fa-water-temp {
+  --fa: "\e82a";
+}
+
+.fa-aeropress {
+  --fa: "\e82b";
+}
+
+.fa-caret-large-down {
+  --fa: "\e82c";
+}
+
+.fa-caret-large-left {
+  --fa: "\e82d";
+}
+
+.fa-caret-large-right {
+  --fa: "\e82e";
+}
+
+.fa-caret-large-up {
+  --fa: "\e82f";
+}
+
+.fa-chemex {
+  --fa: "\e830";
+}
+
+.fa-hand-shaka {
+  --fa: "\e831";
+}
+
+.fa-kettlebell {
+  --fa: "\e832";
+}
+
+.fa-foot-wing {
+  --fa: "\e834";
+}
+
+.fa-pump-impeller {
+  --fa: "\e835";
+}
+
+.fa-arrow-rotate-left-10 {
+  --fa: "\e836";
+}
+
+.fa-arrow-rotate-right-10 {
+  --fa: "\e837";
+}
+
+.fa-arrow-archery {
+  --fa: "\e839";
+}
+
+.fa-bow-archery {
+  --fa: "\e83a";
+}
+
+.fa-eye-closed {
+  --fa: "\e83b";
+}
+
+.fa-file-css {
+  --fa: "\e83c";
+}
+
+.fa-file-html {
+  --fa: "\e83d";
+}
+
+.fa-file-js {
+  --fa: "\e83e";
+}
+
+.fa-layer {
+  --fa: "\e83f";
+}
+
+.fa-file-icns {
+  --fa: "\e841";
+}
+
+.fa-link-broken {
+  --fa: "\e842";
+}
+
+.fa-gpu {
+  --fa: "\e843";
+}
+
+.fa-aquarius {
+  --fa: "\e845";
+}
+
+.fa-aries {
+  --fa: "\e846";
+}
+
+.fa-cancer {
+  --fa: "\e847";
+}
+
+.fa-capricorn {
+  --fa: "\e848";
+}
+
+.fa-gemini {
+  --fa: "\e849";
+}
+
+.fa-leo {
+  --fa: "\e84a";
+}
+
+.fa-libra {
+  --fa: "\e84b";
+}
+
+.fa-pisces {
+  --fa: "\e84c";
+}
+
+.fa-sagittarius {
+  --fa: "\e84d";
+}
+
+.fa-scorpio {
+  --fa: "\e84e";
+}
+
+.fa-taurus {
+  --fa: "\e84f";
+}
+
+.fa-virgo {
+  --fa: "\e850";
+}
+
+.fa-bicep {
+  --fa: "\e862";
+}
+
+.fa-rectangle-irc {
+  --fa: "\e86c";
+}
+
+.fa-moon-first-quarter {
+  --fa: "\e870";
+}
+
+.fa-moon-last-quarter-inverse {
+  --fa: "\e870";
+}
+
+.fa-moon-full {
+  --fa: "\e871";
+}
+
+.fa-moon-new-inverse {
+  --fa: "\e871";
+}
+
+.fa-moon-last-quarter {
+  --fa: "\e872";
+}
+
+.fa-moon-first-quarter-inverse {
+  --fa: "\e872";
+}
+
+.fa-moon-new {
+  --fa: "\e873";
+}
+
+.fa-moon-full-inverse {
+  --fa: "\e873";
+}
+
+.fa-moon-waning-crescent {
+  --fa: "\e874";
+}
+
+.fa-moon-waxing-gibbous-inverse {
+  --fa: "\e874";
+}
+
+.fa-moon-waning-gibbous {
+  --fa: "\e875";
+}
+
+.fa-moon-waxing-crescent-inverse {
+  --fa: "\e875";
+}
+
+.fa-moon-waxing-crescent {
+  --fa: "\e876";
+}
+
+.fa-moon-waning-gibbous-inverse {
+  --fa: "\e876";
+}
+
+.fa-moon-waxing-gibbous {
+  --fa: "\e877";
+}
+
+.fa-moon-waning-crescent-inverse {
+  --fa: "\e877";
+}
+
+.fa-burst-new {
+  --fa: "\e878";
+}
+
+.fa-rectangle-new {
+  --fa: "\e87a";
+}
+
+.fa-opossum {
+  --fa: "\e87c";
+}
+
+.fa-possum {
+  --fa: "\e87c";
+}
+
+.fa-input-password {
+  --fa: "\e87d";
+}
+
+.fa-desk {
+  --fa: "\e87e";
+}
+
+.fa-dresser {
+  --fa: "\e87f";
+}
+
+.fa-stool {
+  --fa: "\e880";
+}
+
+.fa-wardrobe {
+  --fa: "\e881";
+}
+
+.fa-table-dining {
+  --fa: "\e882";
+}
+
+.fa-chest-drawers {
+  --fa: "\e883";
+}
+
+.fa-oar {
+  --fa: "\e884";
+}
+
+.fa-oars {
+  --fa: "\e885";
+}
+
+.fa-arrow-rotate-left-15 {
+  --fa: "\e886";
+}
+
+.fa-arrow-rotate-left-30 {
+  --fa: "\e887";
+}
+
+.fa-arrow-rotate-right-15 {
+  --fa: "\e888";
+}
+
+.fa-arrow-rotate-right-30 {
+  --fa: "\e889";
+}
+
+.fa-rows-3 {
+  --fa: "\e88b";
+}
+
+.fa-table-cells-merge {
+  --fa: "\e88c";
+}
+
+.fa-table-cells-split {
+  --fa: "\e88d";
+}
+
+.fa-table-columns-add-after {
+  --fa: "\e88e";
+}
+
+.fa-table-columns-add-before {
+  --fa: "\e88f";
+}
+
+.fa-table-columns-merge-next {
+  --fa: "\e890";
+}
+
+.fa-table-columns-merge-previous {
+  --fa: "\e891";
+}
+
+.fa-table-columns-remove-after {
+  --fa: "\e892";
+}
+
+.fa-table-columns-remove-before {
+  --fa: "\e893";
+}
+
+.fa-table-rows-add-above {
+  --fa: "\e894";
+}
+
+.fa-table-rows-add-below {
+  --fa: "\e895";
+}
+
+.fa-table-rows-merge-next {
+  --fa: "\e896";
+}
+
+.fa-table-rows-merge-previous {
+  --fa: "\e897";
+}
+
+.fa-table-rows-remove-above {
+  --fa: "\e898";
+}
+
+.fa-table-rows-remove-below {
+  --fa: "\e899";
+}
+
+.fa-table-slash {
+  --fa: "\e89a";
+}
+
+.fa-kayak {
+  --fa: "\e89b";
+}
+
+.fa-canoe-person {
+  --fa: "\e89c";
+}
+
+.fa-utility-can {
+  --fa: "\e89d";
+}
+
+.fa-table-bar {
+  --fa: "\e89e";
+}
+
+.fa-owl {
+  --fa: "\e89f";
+}
+
+.fa-rectangle-api {
+  --fa: "\e8a0";
+}
+
+.fa-nas {
+  --fa: "\e8a1";
+}
+
+.fa-poker-chip {
+  --fa: "\e8a2";
+}
+
+.fa-tower-receive {
+  --fa: "\e8a3";
+}
+
+.fa-gear-api {
+  --fa: "\e8a4";
+}
+
+.fa-gear-complex-api {
+  --fa: "\e8a5";
+}
+
+.fa-globe-www {
+  --fa: "\e8a6";
+}
+
+.fa-label {
+  --fa: "\e8a7";
+}
+
+.fa-rectangle-n-a {
+  --fa: "\e8a8";
+}
+
+.fa-remote {
+  --fa: "\e8a9";
+}
+
+.fa-image-broken {
+  --fa: "\e8aa";
 }
 
 .fa-martini-glass-empty {
